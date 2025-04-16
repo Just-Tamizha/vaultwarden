@@ -1,11 +1,17 @@
 
 # BitWarden (VaultWarden)
 
-Installation steps for VaultWarden without Docker Method
+Installation steps for VaultWarden **without Docker Method.**
 
 ## Requirements
 
 - Ubuntu
+
+## Deployments URLs
+
+Homepage: `localhost:8000` or `127.0.0.1:8000`
+
+Adminpage: `/admin`
 
 ## Installation & Execution Commands
 
@@ -140,7 +146,17 @@ To check the status
 ```
 systemctl status vaultwarden
 ```
+If anything modified in `.env` or `vaultwarden.service` Restart the `Apache server`
+```
+systemctl restart apache2
+```
 
 ## Authors
 
 - [@Just-Tamizha](https://www.github.com/Just-Tamizha)
+
+## Contribution
+
+Contributions are always welcome!
+
+Please raise the `Pull requests`
