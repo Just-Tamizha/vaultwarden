@@ -17,7 +17,7 @@ Adminpage: `/admin`
 
 All of these commands should be performed as `root`, or prefixed with `sudo`
 
-First, create a directory to store the Docker image temporarily.
+First, create a directory to temporarily store the Docker image.
 
 ```
 mkdir vw-image
@@ -146,9 +146,9 @@ To check the status
 ```
 systemctl status vaultwarden
 ```
-If anything modified in `.env` or `vaultwarden.service` Restart the `Apache server`
+If anything is modified in `.env` or `vaultwarden.service`, restart the `Vaultwarden server`
 ```
-systemctl restart apache2
+systemctl restart vaultwarden
 ```
 
 ## Authors
