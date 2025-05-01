@@ -75,7 +75,7 @@ nano /var/lib/vaultwarden/.env
 ```
 Update the `.env` file
 ```
-DOMAIN=https://www.example.com/vaultwarden/
+DOMAIN=https://www.example.com
 ORG_CREATION_USERS=user@example.com
 ADMIN_TOKEN='<hash produced by vaultwarden hash earlier>'
 SIGNUPS_ALLOWED=false
