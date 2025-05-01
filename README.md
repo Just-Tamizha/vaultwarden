@@ -150,6 +150,13 @@ If anything is modified in `.env` or `vaultwarden.service`, restart the `Vaultwa
 ```
 systemctl restart vaultwarden
 ```
+## Additional `.env` settings
+
+Custom Port
+```
+ROCKET_PORT=1234
+```
+
 
 ## Authors
 
