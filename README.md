@@ -1,17 +1,23 @@
 
 # BitWarden (VaultWarden)
 
-Installation steps for VaultWarden without Docker Method
+Installation steps for VaultWarden **without Docker Method.**
 
 ## Requirements
 
 - Ubuntu
 
+## Deployments URLs
+
+Homepage: `localhost:8000` or `127.0.0.1:8000`
+
+Adminpage: `/admin`
+
 ## Installation & Execution Commands
 
 All of these commands should be performed as `root`, or prefixed with `sudo`
 
-First, create a directory to store the Docker image temporarily.
+First, create a directory to temporarily store the Docker image.
 
 ```
 mkdir vw-image
@@ -140,7 +146,17 @@ To check the status
 ```
 systemctl status vaultwarden
 ```
+If anything is modified in `.env` or `vaultwarden.service`, restart the `Vaultwarden server`
+```
+systemctl restart vaultwarden
+```
 
 ## Authors
 
 - [@Just-Tamizha](https://www.github.com/Just-Tamizha)
+
+## Contribution
+
+Contributions are always welcome!
+
+Please raise the `Pull requests`
